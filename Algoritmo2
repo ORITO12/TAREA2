@@ -1,0 +1,17 @@
+Ejercicio 2
+Generar hasta el n-simo numero de la serie.
+
+Algoritmo sin_titulo
+	//1,4,9,16,25,36,49
+	Escribir "Ingrese el nsimo termino de la serie"
+	Leer n	
+	t<-1
+	r<-1
+	g<-0
+	Mientras g<=n Hacer
+		Escribir r
+		r<-(t+1)*(t+1)
+		t<-t+1
+		g<-g+126
+	Fin Mientras
+FinAlgoritmo
